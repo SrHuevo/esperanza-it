@@ -56,16 +56,17 @@ body {
 
 .apuntame-form {
     width: 180px;
+    z-index: 100;
     text-align: center;
     position: fixed;
     right: calc(50% - 90px);
-    color: white;
     border-right: 25px solid transparent;
     border-left: 25px solid transparent;
     border-top: 42px solid black;
 }
 
 .apuntame-text {
+    z-index: 100;
     width: 130px;
     text-align: center;
     position: fixed;
